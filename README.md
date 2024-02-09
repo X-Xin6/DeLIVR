@@ -6,7 +6,8 @@ We go to the files Stage1_DeLiVR.ipynb and Stage2_DeLiVR.ipynb and click on the 
 ![alt text](image/usage.png?raw=true "Title")
 We download the data files under the data folder and upload them to the google drive.
 ## Usage
-
+![alt text](image/usage2.png?raw=true "Title")
+![alt text](image/usage3.png?raw=true "Title")
 ## Features
 Supports various types of relationships (linear, quadratic, cubic)
 Implements deep learning for accurate estimation
