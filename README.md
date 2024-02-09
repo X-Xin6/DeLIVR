@@ -2,8 +2,9 @@
 
 The DeLIVR Estimator is a Python-based tool that leverages deep learning for instrumental variable regression, designed to uncover complex causal relationships in data. This project aims to provide an easy-to-use interface for both academic researchers and data scientists.
 ## Installation
-![alt text]([https://github.com/X-Xin6/DeLIVR/blob/main/image/usage.png])
+We go to the files Stage1_DeLiVR.ipynb and Stage2_DeLiVR.ipynb and click on the Open in Colab button. Then we store these two files in google colab.
 ![alt text](image/usage.png?raw=true "Title")
+We download the data files under the data folder and upload them to the google drive.
 ## Usage
 
 ## Features
