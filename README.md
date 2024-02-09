@@ -3,7 +3,7 @@
 The DeLIVR Estimator is a Python-based tool that leverages deep learning for instrumental variable regression, designed to uncover complex causal relationships in data. This project aims to provide an easy-to-use interface for both academic researchers and data scientists.
 ## Installation
 ![alt text]([https://github.com/X-Xin6/DeLIVR/blob/main/image/usage.png])
-![alt text](relative%20image/usage.png?raw=true "Title")
+![alt text](image/usage.png?raw=true "Title")
 ## Usage
 
 ## Features
