@@ -1,19 +1,22 @@
 # DeLIVR Estimator
 
-The DeLIVR Estimator is a Python-based tool that leverages deep learning for instrumental variable regression, designed to uncover complex causal relationships in data. This project aims to provide an easy-to-use interface for both academic researchers and data scientists.
+The DeLIVR Estimator is a Python-based tool that leverages deep learning for instrumental variable regression. This project aims to the performance of DeLiVR and provide an easy-to-use interface for academic researchers.
 ## Installation
-We go to the files Stage1_DeLiVR.ipynb and Stage2_DeLiVR.ipynb and click on the Open in Colab button. Then we store these two files in google colab.
+1. Navigate to Stage1_DeLiVR.ipynb and Stage2_DeLiVR.ipynb on GitHub.
+2. Click on the Open in Colab button.
+3. Download the data files from the data folder.
+4. Upload these files to Google Drive for use in Colab notebooks.
 ![alt text](image/usage.png?raw=true "Title")
-We download the data files under the data folder and upload them to the google drive.
+
 ## Usage
-We opened the file Stage1_DeLiVR.ipynb first, and click runall under the Runtime button. The generate data method will simulated the data that will be tested in the DeLiVR estimator. We store these data into Google Drive. For example, for the Simulated Data with g(x) being cubic function, we save s1_Z, s2_Z, s1_X, s2_X, Y into the s1_Z_3.csv, s2_Z_3.csv, s1_X_3.csv, s2_X_3.csv, Y_3.csv files respectively. We used data s1_Z, s1_X, s2_Z to fit a linear model in stage 1 and obtained the files s2_X_hat_3.csv, which will be used in stage 2 estimation later.
-![alt text](image/usage2.png?raw=true "Title")
-We opened the file Stage1_DeLiVR.ipynb first, and click runall under the Runtime button. We will use s2_X_hat_3.csv and  Y_3.csv  that we obtained earlier to fit a deep learning model in stage 2.
+### Step 1: Data Generation and Fit Stage1 model
+- Open Stage1_DeLiVR.ipynb and execute all cells to simulate data, where "3" in filenames like s1_Z_3.csv denotes a cubic relationship.
+- Save the generated data (s1_Z_3.csv, s2_Z_3.csv, etc.) to your Google Drive for analysis.
+- ![alt text](image/usage2.png?raw=true "Title")
+### Step 2: Stage2 Model Training and Evaluation
+- Proceed with Stage2_DeLiVR.ipynb, using s2_X_hat_3.csv and Y_3.csv from Stage 1.
 ![alt text](image/usage3.png?raw=true "Title")
 ## Features
-Supports various types of relationships (linear, quadratic, cubic)
-Implements deep learning for accurate estimation
-User-friendly command-line interface
-
+- Handles various types of relationships (linear, quadratic, cubic)
 ## Contributing
-Contributions are welcome! Please fork the repository and submit a pull request with your enhancements.
+Contributions are welcome! Please fork the repository and submit a pull request with your changes.
